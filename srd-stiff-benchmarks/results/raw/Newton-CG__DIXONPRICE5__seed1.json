@@ -1,0 +1,39 @@
+{
+  "problem": "DIXONPRICE5",
+  "solver": "Newton-CG",
+  "seed": 1,
+  "result": {
+    "x_final": [
+      1.0000000005910392,
+      0.7071067814108911,
+      0.5946035576087052,
+      0.545253866447271,
+      0.5221368912913686
+    ],
+    "f_final": 4.48741210438581e-19,
+    "grad_norm_final": 2.577369162449705e-09,
+    "status": "converged_grad",
+    "iterations": 14,
+    "nfev": 15,
+    "ngev": 15,
+    "nhev": 33,
+    "time_total": 0.002875499994843267,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Newton-CG",
+    "problem_name": "DIXONPRICE5",
+    "seed": 1,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:27:50.919849+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

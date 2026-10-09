@@ -1,0 +1,39 @@
+{
+  "problem": "SCHWEFEL5",
+  "solver": "Trust-NCG",
+  "seed": 0,
+  "result": {
+    "x_final": [
+      420.9687,
+      420.9687,
+      420.9687,
+      420.9687,
+      420.9687
+    ],
+    "f_final": 6.363918737406493e-05,
+    "grad_norm_final": 2.6161396380829126e-05,
+    "status": "converged_grad",
+    "iterations": 0,
+    "nfev": 1,
+    "ngev": 1,
+    "nhev": 0,
+    "time_total": 0.000999500000034459,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Trust-NCG",
+    "problem_name": "SCHWEFEL5",
+    "seed": 0,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:28:20.285039+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

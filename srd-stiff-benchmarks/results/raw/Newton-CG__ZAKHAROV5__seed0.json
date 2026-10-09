@@ -1,0 +1,39 @@
+{
+  "problem": "ZAKHAROV5",
+  "solver": "Newton-CG",
+  "seed": 0,
+  "result": {
+    "x_final": [
+      -1.5657562848673352e-17,
+      -1.277356389403823e-16,
+      -2.396620431949735e-16,
+      -6.263025139469341e-17,
+      5.975148286850758e-16
+    ],
+    "f_final": 1.1978942068618064e-30,
+    "grad_norm_final": 7.057302813743071e-15,
+    "status": "converged_grad",
+    "iterations": 14,
+    "nfev": 15,
+    "ngev": 15,
+    "nhev": 17,
+    "time_total": 0.0024612999986857176,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Newton-CG",
+    "problem_name": "ZAKHAROV5",
+    "seed": 0,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:28:17.390374+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

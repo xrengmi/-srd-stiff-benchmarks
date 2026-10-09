@@ -1,0 +1,40 @@
+{
+  "problem": "DIXMAANA6",
+  "solver": "L-BFGS",
+  "seed": 1,
+  "result": {
+    "x_final": [
+      3.1060583718640605e-09,
+      4.274029443465504e-09,
+      -1.1219392615079945e-09,
+      -1.24263286234121e-10,
+      6.285306819882475e-10,
+      9.282337359430657e-10
+    ],
+    "f_final": 1.0,
+    "grad_norm_final": 1.1035539687862864e-08,
+    "status": "converged_grad",
+    "iterations": 15,
+    "nfev": 16,
+    "ngev": 16,
+    "nhev": 0,
+    "time_total": 0.0020125000010011718,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "L-BFGS",
+    "problem_name": "DIXMAANA6",
+    "seed": 1,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:27:57.380158+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

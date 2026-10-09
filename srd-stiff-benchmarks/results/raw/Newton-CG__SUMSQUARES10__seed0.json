@@ -1,0 +1,44 @@
+{
+  "problem": "SUMSQUARES10",
+  "solver": "Newton-CG",
+  "seed": 0,
+  "result": {
+    "x_final": [
+      1.229958519633075e-08,
+      -1.522054360901254e-07,
+      3.72823144758331e-09,
+      8.58448674231081e-08,
+      -3.6547534136175205e-08,
+      -1.9925062886645794e-08,
+      1.6967418280258827e-08,
+      -1.0799156799292661e-08,
+      -1.970050769066668e-09,
+      -7.060184758125713e-10
+    ],
+    "f_final": 8.805213537437445e-14,
+    "grad_norm_final": 1.0591920431774684e-06,
+    "status": "converged_grad",
+    "iterations": 11,
+    "nfev": 12,
+    "ngev": 12,
+    "nhev": 27,
+    "time_total": 0.00213719999010209,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Newton-CG",
+    "problem_name": "SUMSQUARES10",
+    "seed": 0,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:08:14.538382+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

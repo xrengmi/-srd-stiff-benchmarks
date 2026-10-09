@@ -1,0 +1,40 @@
+{
+  "problem": "TRID6",
+  "solver": "Newton-CG",
+  "seed": 1,
+  "result": {
+    "x_final": [
+      6.0,
+      10.0,
+      12.0,
+      12.0,
+      10.0,
+      6.0
+    ],
+    "f_final": -50.0,
+    "grad_norm_final": 0.0,
+    "status": "converged_grad",
+    "iterations": 2,
+    "nfev": 2,
+    "ngev": 2,
+    "nhev": 3,
+    "time_total": 0.00261060000048019,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Newton-CG",
+    "problem_name": "TRID6",
+    "seed": 1,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:07:10.066983+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

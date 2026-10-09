@@ -1,0 +1,36 @@
+{
+  "problem": "MCCORMICK",
+  "solver": "Newton-CG",
+  "seed": 0,
+  "result": {
+    "x_final": [
+      -0.5471975511965772,
+      -1.5471975511965772
+    ],
+    "f_final": -1.9132229549810362,
+    "grad_norm_final": 5.0242958677880804e-14,
+    "status": "converged_grad",
+    "iterations": 6,
+    "nfev": 7,
+    "ngev": 7,
+    "nhev": 7,
+    "time_total": 0.0013487000105669722,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Newton-CG",
+    "problem_name": "MCCORMICK",
+    "seed": 0,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:08:24.726680+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

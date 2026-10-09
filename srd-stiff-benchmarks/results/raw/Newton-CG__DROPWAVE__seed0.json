@@ -1,0 +1,36 @@
+{
+  "problem": "DROPWAVE",
+  "solver": "Newton-CG",
+  "seed": 0,
+  "result": {
+    "x_final": [
+      5.180868897089138,
+      5.180868897089138
+    ],
+    "f_final": -0.06931369115493792,
+    "grad_norm_final": 1.8006997885529545e-15,
+    "status": "converged_grad",
+    "iterations": 3,
+    "nfev": 16,
+    "ngev": 16,
+    "nhev": 3,
+    "time_total": 0.0017035000055329874,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Newton-CG",
+    "problem_name": "DROPWAVE",
+    "seed": 0,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:27:38.969318+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

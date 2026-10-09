@@ -1,0 +1,93 @@
+{
+  "problem": "ACKLEY2",
+  "solver": "SRD-STIFF",
+  "seed": 0,
+  "result": {
+    "x_final": [
+      0.9684776656719833,
+      0.9684776656719833
+    ],
+    "f_final": 3.574451877257683,
+    "grad_norm_final": 4.847893241813711e-07,
+    "status": "converged_grad",
+    "iterations": 4,
+    "nfev": 5,
+    "ngev": 5,
+    "nhev": 12,
+    "time_total": 0.0027285000105621293,
+    "history": [
+      {
+        "k": 1,
+        "f_val": 3.57454621099739,
+        "grad_norm": 0.0965929442130882,
+        "alpha": 0.9,
+        "lam_min_lb": 53.32924029388991,
+        "step_size": 1.0,
+        "cg_iters": 1,
+        "nfev": 2,
+        "ngev": 2,
+        "nhev": 3,
+        "time_elapsed": 0.0015540000022156164,
+        "safe_set_ok": "True"
+      },
+      {
+        "k": 2,
+        "f_val": 3.57445191963998,
+        "grad_norm": 0.002042728851684843,
+        "alpha": 0.81,
+        "lam_min_lb": 49.56662904186102,
+        "step_size": 1.0,
+        "cg_iters": 1,
+        "nfev": 3,
+        "ngev": 3,
+        "nhev": 6,
+        "time_elapsed": 0.001985800001421012,
+        "safe_set_ok": "True"
+      },
+      {
+        "k": 3,
+        "f_val": 3.574451877268885,
+        "grad_norm": 3.321536299988999e-05,
+        "alpha": 0.7290000000000001,
+        "lam_min_lb": 49.229887140674066,
+        "step_size": 1.0,
+        "cg_iters": 1,
+        "nfev": 4,
+        "ngev": 4,
+        "nhev": 9,
+        "time_elapsed": 0.0023606000031577423,
+        "safe_set_ok": "True"
+      },
+      {
+        "k": 4,
+        "f_val": 3.574451877257683,
+        "grad_norm": 4.847893241813711e-07,
+        "alpha": 0.6561000000000001,
+        "lam_min_lb": 49.22256000810444,
+        "step_size": 1.0,
+        "cg_iters": 1,
+        "nfev": 5,
+        "ngev": 5,
+        "nhev": 12,
+        "time_elapsed": 0.0027218000032007694,
+        "safe_set_ok": "True"
+      }
+    ],
+    "failure_mode": null,
+    "solver_name": "SRD-STIFF",
+    "problem_name": "ACKLEY2",
+    "seed": 0,
+    "config_hash": "62cb483a59dacf1b"
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:27:27.200529+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

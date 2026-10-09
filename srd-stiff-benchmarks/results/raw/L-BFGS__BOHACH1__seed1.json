@@ -1,0 +1,36 @@
+{
+  "problem": "BOHACH1",
+  "solver": "L-BFGS",
+  "seed": 1,
+  "result": {
+    "x_final": [
+      -1.0923095141879294e-11,
+      -0.46952754566469596
+    ],
+    "f_final": 0.4698824149213959,
+    "grad_norm_final": 3.929149767214036e-10,
+    "status": "converged_grad",
+    "iterations": 9,
+    "nfev": 18,
+    "ngev": 18,
+    "nhev": 0,
+    "time_total": 0.0012243000091984868,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "L-BFGS",
+    "problem_name": "BOHACH1",
+    "seed": 1,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:08:19.063526+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

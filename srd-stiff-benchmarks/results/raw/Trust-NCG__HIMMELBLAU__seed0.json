@@ -1,0 +1,36 @@
+{
+  "problem": "HIMMELBLAU",
+  "solver": "Trust-NCG",
+  "seed": 0,
+  "result": {
+    "x_final": [
+      2.999999999851487,
+      2.000000000675329
+    ],
+    "f_final": 6.563352414811345e-18,
+    "grad_norm_final": 2.014871114009462e-08,
+    "status": "converged_grad",
+    "iterations": 8,
+    "nfev": 9,
+    "ngev": 9,
+    "nhev": 20,
+    "time_total": 0.006292699996265583,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Trust-NCG",
+    "problem_name": "HIMMELBLAU",
+    "seed": 0,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:27:17.240492+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

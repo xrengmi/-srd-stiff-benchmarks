@@ -1,0 +1,36 @@
+{
+  "problem": "BEALE",
+  "solver": "L-BFGS",
+  "seed": 0,
+  "result": {
+    "x_final": [
+      3.000000000107727,
+      0.49999999997182276
+    ],
+    "f_final": 7.134308571189089e-20,
+    "grad_norm_final": 2.616996766310729e-09,
+    "status": "converged_grad",
+    "iterations": 16,
+    "nfev": 17,
+    "ngev": 17,
+    "nhev": 0,
+    "time_total": 0.0018062000017380342,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "L-BFGS",
+    "problem_name": "BEALE",
+    "seed": 0,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:28:23.050342+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

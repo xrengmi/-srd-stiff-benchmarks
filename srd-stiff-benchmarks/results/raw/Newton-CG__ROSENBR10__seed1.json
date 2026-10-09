@@ -1,0 +1,44 @@
+{
+  "problem": "ROSENBR10",
+  "solver": "Newton-CG",
+  "seed": 1,
+  "result": {
+    "x_final": [
+      0.9999998789809993,
+      0.9999997546235057,
+      0.999999495753938,
+      0.9999989394130114,
+      0.9999976447594644,
+      0.9999943452412814,
+      0.9999848993696235,
+      0.9999687396665067,
+      0.9999368559868603,
+      0.9998732072833616
+    ],
+    "f_final": 6.940660893377027e-09,
+    "grad_norm_final": 0.0014114315676365975,
+    "status": "converged_grad",
+    "iterations": 127,
+    "nfev": 133,
+    "ngev": 133,
+    "nhev": 401,
+    "time_total": 0.019556100000045262,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Newton-CG",
+    "problem_name": "ROSENBR10",
+    "seed": 1,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:27:45.025444+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

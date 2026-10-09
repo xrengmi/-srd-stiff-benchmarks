@@ -1,0 +1,38 @@
+# Test konfigürasyonu (Mocked)
+output_dir: "results"
+n_seeds: 2
+max_iter: 1000
+max_time_sec: 10.0
+
+solvers:
+  - "SRD-STIFF"
+  - "L-BFGS"
+  - "Newton-CG"
+  - "Trust-NCG"
+
+problems:
+  - SPHERE10
+  - BEALE
+  - BOOTH
+  - MATYAS
+  - HIMMELBLAU
+  - ACKLEY2
+  - ROSENBR10
+  - DIXONPRICE5
+  - ZAKHAROV5
+  - TRID6
+  - BOHACH1
+  - BOHACH2
+  - STYBLINSKI4
+  - SUMSQUARES10
+  - MCCORMICK
+  - DIXMAANA6
+  - POWELL
+  - LEON
+  - CAMEL3
+  - CAMEL6
+  - CHUNHUI
+  - DROPWAVE
+  - EASOM
+  - SCHWEFEL5
+  - GOLDSTEIN

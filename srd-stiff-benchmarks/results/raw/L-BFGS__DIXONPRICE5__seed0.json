@@ -1,0 +1,39 @@
+{
+  "problem": "DIXONPRICE5",
+  "solver": "L-BFGS",
+  "seed": 0,
+  "result": {
+    "x_final": [
+      1.000000000284444,
+      0.7071067812257601,
+      0.5946035575570701,
+      0.5452538663241632,
+      0.522136891182004
+    ],
+    "f_final": 2.0592480226041685e-19,
+    "grad_norm_final": 3.692361586418114e-09,
+    "status": "converged_grad",
+    "iterations": 20,
+    "nfev": 21,
+    "ngev": 21,
+    "nhev": 0,
+    "time_total": 0.0018124000052921474,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "L-BFGS",
+    "problem_name": "DIXONPRICE5",
+    "seed": 0,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:07:13.840525+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "problem": "DIXMAANA6",
+  "solver": "Trust-NCG",
+  "seed": 1,
+  "result": {
+    "x_final": [
+      1.5496171541864306e-05,
+      3.5224429189443032e-06,
+      6.353235165271545e-06,
+      -9.897042130408568e-06,
+      6.631354565642469e-06,
+      1.0192115953112577e-05
+    ],
+    "f_final": 1.000000000538708,
+    "grad_norm_final": 4.642017094980616e-05,
+    "status": "converged_grad",
+    "iterations": 7,
+    "nfev": 8,
+    "ngev": 8,
+    "nhev": 15,
+    "time_total": 0.002304199995705858,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Trust-NCG",
+    "problem_name": "DIXMAANA6",
+    "seed": 1,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:08:10.529279+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

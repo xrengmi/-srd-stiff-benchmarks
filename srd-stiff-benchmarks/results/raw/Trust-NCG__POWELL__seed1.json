@@ -1,0 +1,38 @@
+{
+  "problem": "POWELL",
+  "solver": "Trust-NCG",
+  "seed": 1,
+  "result": {
+    "x_final": [
+      0.014273221925411403,
+      -0.0014273221925825363,
+      0.0068467583511626975,
+      0.006846758351159486
+    ],
+    "f_final": 8.269397339720626e-08,
+    "grad_norm_final": 3.8639739645108535e-05,
+    "status": "converged_grad",
+    "iterations": 19,
+    "nfev": 20,
+    "ngev": 19,
+    "nhev": 70,
+    "time_total": 0.0029635999962920323,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Trust-NCG",
+    "problem_name": "POWELL",
+    "seed": 1,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:27:19.895781+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

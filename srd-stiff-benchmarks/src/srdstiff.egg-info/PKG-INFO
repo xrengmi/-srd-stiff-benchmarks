@@ -1,0 +1,63 @@
+Metadata-Version: 2.4
+Name: srdstiff
+Version: 1.0.0
+Summary: SRD-STIFF: Spectral Regularization Dynamics for Stiff Optimization
+Author: SRD Authors
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy<1.27,>=1.26
+Requires-Dist: scipy<1.12,>=1.11
+Requires-Dist: pydantic>=2.4
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: structlog>=23.2
+Requires-Dist: rich>=13.6
+Requires-Dist: typer>=0.9
+Requires-Dist: pandas>=2.1
+Requires-Dist: pyarrow>=14.0
+Requires-Dist: h5py>=3.10
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: pytest-cov>=4.1; extra == "dev"
+Requires-Dist: mypy>=1.6; extra == "dev"
+Requires-Dist: ruff>=0.1.0; extra == "dev"
+Requires-Dist: pre-commit>=3.5; extra == "dev"
+Provides-Extra: cutest
+Requires-Dist: pycutest>=1.6; extra == "cutest"
+
+# SRD-STIFF: Reproducible Benchmark Suite
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXX)
+[![OSF](https://img.shields.io/badge/OSF-registered-blue)](https://osf.io/XXXXX)
+[![CI](https://github.com/srdlean/stiff-benchmarks/workflows/CI/badge.svg)](https://github.com/srdlean/stiff-benchmarks/actions)
+
+**One-command reproducibility:**
+```bash
+docker run --rm srdlean/benchmarks:v1.0.0 \
+  snakemake --cores 24 --use-singularity all
+```
+
+**Minimum deney (1 saat):**
+```bash
+docker run --rm srdlean/benchmarks:v1.0.0 \
+  python scripts/run_all.py --category A --n-seeds 3
+```
+
+**Lean ispatları:** [github.com/srdlean/formalization](https://github.com/srdlean/formalization)
+
+**Preregistration:** [osf.io/XXXXX](https://osf.io/XXXXX) (2025-07-15)
+
+**Veri:** [zenodo.org/record/XXXXX](https://zenodo.org/record/XXXXX)
+
+## Alıntı
+```bibtex
+@article{srd_stiff_2026,
+  title={SRD-STIFF: A Formally Verified Spectral Regularization Method for Stiff Optimization},
+  author={Dalman, H. and Badur Dalman, S.},
+  journal={International Journal of Mathematical and Logical Computing},
+  volume={17},
+  pages={333},
+  year={2026},
+  doi={10.XXXX/XXXXX}
+}
+```

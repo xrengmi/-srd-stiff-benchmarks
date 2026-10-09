@@ -1,0 +1,36 @@
+{
+  "problem": "MATYAS",
+  "solver": "Newton-CG",
+  "seed": 1,
+  "result": {
+    "x_final": [
+      7.771561172376096e-16,
+      7.771561172376096e-16
+    ],
+    "f_final": 2.4158865222393497e-32,
+    "grad_norm_final": 4.396258884314574e-17,
+    "status": "converged_grad",
+    "iterations": 2,
+    "nfev": 2,
+    "ngev": 2,
+    "nhev": 2,
+    "time_total": 0.0009511999960523099,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Newton-CG",
+    "problem_name": "MATYAS",
+    "seed": 1,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:27:31.008275+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

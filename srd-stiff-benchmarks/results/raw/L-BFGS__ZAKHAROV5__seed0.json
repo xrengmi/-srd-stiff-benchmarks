@@ -1,0 +1,39 @@
+{
+  "problem": "ZAKHAROV5",
+  "solver": "L-BFGS",
+  "seed": 0,
+  "result": {
+    "x_final": [
+      3.510676384737691e-08,
+      2.257009115573673e-08,
+      1.0033417620843835e-08,
+      -2.5032552981457155e-09,
+      -1.5039929279031514e-08
+    ],
+    "f_final": 2.2329652791711566e-15,
+    "grad_norm_final": 1.350929124895829e-07,
+    "status": "converged_grad",
+    "iterations": 23,
+    "nfev": 24,
+    "ngev": 24,
+    "nhev": 0,
+    "time_total": 0.0021050000068498775,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "L-BFGS",
+    "problem_name": "ZAKHAROV5",
+    "seed": 0,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:27:26.550141+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

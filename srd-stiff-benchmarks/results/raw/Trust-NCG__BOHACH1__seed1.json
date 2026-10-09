@@ -1,0 +1,36 @@
+{
+  "problem": "BOHACH1",
+  "solver": "Trust-NCG",
+  "seed": 1,
+  "result": {
+    "x_final": [
+      0.6186125259919462,
+      0.9333802090598562
+    ],
+    "f_final": 2.2874967614223483,
+    "grad_norm_final": 5.082385559835396e-05,
+    "status": "converged_grad",
+    "iterations": 7,
+    "nfev": 8,
+    "ngev": 6,
+    "nhev": 23,
+    "time_total": 0.0012567999947350472,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Trust-NCG",
+    "problem_name": "BOHACH1",
+    "seed": 1,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:27:40.298698+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

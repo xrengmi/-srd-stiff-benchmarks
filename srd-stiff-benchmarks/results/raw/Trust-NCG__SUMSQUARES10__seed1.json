@@ -1,0 +1,44 @@
+{
+  "problem": "SUMSQUARES10",
+  "solver": "Trust-NCG",
+  "seed": 1,
+  "result": {
+    "x_final": [
+      1.2872895875583226e-06,
+      9.305049182532782e-07,
+      -2.22934147030236e-07,
+      -5.416294523989184e-07,
+      1.231649740057805e-07,
+      1.0510246507578285e-06,
+      9.978094143644694e-07,
+      5.720072652189108e-07,
+      6.018552560644084e-08,
+      -2.0580690037680075e-07
+    ],
+    "f_final": 2.1458176361022245e-11,
+    "grad_norm_final": 2.2330537806333055e-05,
+    "status": "converged_grad",
+    "iterations": 12,
+    "nfev": 13,
+    "ngev": 13,
+    "nhev": 38,
+    "time_total": 0.002456799993524328,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "Trust-NCG",
+    "problem_name": "SUMSQUARES10",
+    "seed": 1,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:27:30.386531+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

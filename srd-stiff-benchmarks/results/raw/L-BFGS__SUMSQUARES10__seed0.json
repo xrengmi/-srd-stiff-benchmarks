@@ -1,0 +1,44 @@
+{
+  "problem": "SUMSQUARES10",
+  "solver": "L-BFGS",
+  "seed": 0,
+  "result": {
+    "x_final": [
+      -2.6438215175958686e-07,
+      -2.758026636026071e-07,
+      -2.6078558823485463e-07,
+      -9.224033976507308e-08,
+      6.723268168907882e-09,
+      3.922269287688865e-08,
+      8.28268780365151e-09,
+      -2.495500848343355e-08,
+      -2.58135456481348e-08,
+      1.4691814385303359e-08
+    ],
+    "f_final": 4.831669467336726e-13,
+    "grad_norm_final": 2.2783065878893877e-06,
+    "status": "converged_grad",
+    "iterations": 18,
+    "nfev": 20,
+    "ngev": 20,
+    "nhev": 0,
+    "time_total": 0.0036443999997572973,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "L-BFGS",
+    "problem_name": "SUMSQUARES10",
+    "seed": 0,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:27:03.180365+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

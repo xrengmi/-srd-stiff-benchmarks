@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "srdstiff"
+version = "1.0.0"
+description = "SRD-STIFF: Spectral Regularization Dynamics for Stiff Optimization"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "SRD Authors"}]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26,<1.27",
+    "scipy>=1.11,<1.12",
+    "pydantic>=2.4",
+    "pyyaml>=6.0",
+    "structlog>=23.2",
+    "rich>=13.6",
+    "typer>=0.9",
+    "pandas>=2.1",
+    "pyarrow>=14.0",
+    "h5py>=3.10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "pytest-cov>=4.1", "mypy>=1.6", "ruff>=0.1.0", "pre-commit>=3.5"]
+cutest = ["pycutest>=1.6"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = ["E", "F", "W", "I", "N", "D", "UP", "B", "SIM", "RUF"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers --cov=srdstiff --cov-report=term-missing"

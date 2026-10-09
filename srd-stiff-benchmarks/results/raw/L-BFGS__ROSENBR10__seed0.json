@@ -1,0 +1,44 @@
+{
+  "problem": "ROSENBR10",
+  "solver": "L-BFGS",
+  "seed": 0,
+  "result": {
+    "x_final": [
+      0.99999999854728,
+      0.9999999984497074,
+      0.9999999988822793,
+      1.0000000010485794,
+      1.0000000028757356,
+      1.0000000024512437,
+      1.0000000011658452,
+      0.9999999987841092,
+      0.9999999973394849,
+      0.9999999962030671
+    ],
+    "f_final": 5.728424203564114e-15,
+    "grad_norm_final": 2.409806508749189e-06,
+    "status": "converged_grad",
+    "iterations": 74,
+    "nfev": 92,
+    "ngev": 92,
+    "nhev": 0,
+    "time_total": 0.003915900000720285,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "L-BFGS",
+    "problem_name": "ROSENBR10",
+    "seed": 0,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:28:00.649455+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}

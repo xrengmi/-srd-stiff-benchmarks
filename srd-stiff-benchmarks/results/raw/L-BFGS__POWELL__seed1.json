@@ -1,0 +1,38 @@
+{
+  "problem": "POWELL",
+  "solver": "L-BFGS",
+  "seed": 1,
+  "result": {
+    "x_final": [
+      3.534089141972369e-05,
+      -3.5319377944557483e-06,
+      0.00033734115529394714,
+      0.0003373370328529599
+    ],
+    "f_final": 2.953018493186333e-13,
+    "grad_norm_final": 4.35130541807397e-07,
+    "status": "converged_grad",
+    "iterations": 47,
+    "nfev": 52,
+    "ngev": 52,
+    "nhev": 0,
+    "time_total": 0.0022523000079672784,
+    "history": [],
+    "failure_mode": null,
+    "solver_name": "L-BFGS",
+    "problem_name": "POWELL",
+    "seed": 1,
+    "config_hash": ""
+  },
+  "metadata": {
+    "hostname": "HASAN-DALMAN",
+    "cpu_info": "Intel64 Family 6 Model 158 Stepping 13, GenuineIntel",
+    "python_version": "3.12.10",
+    "numpy_version": "1.26.4",
+    "scipy_version": "1.11.4",
+    "timestamp_utc": "2026-10-09T15:28:11.485271+00:00",
+    "git_commit": "007579598779dc1a169d15cd4602ab02235b246d",
+    "env_hash": "4b8cf9c348f66133",
+    "peak_memory_mb": 0.0
+  }
+}
